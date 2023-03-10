@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleContato.css">
+    <title>Semântica CSS</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <a href="index.html">
+                <img src="img/logoIcon.webp" alt="Logo Icon">
+            </a>
+            <br>
+            <a href="index.html" class="linkMenu">Home</a>
+            <a href="#" class="linkMenu">About Us</a>
+            <a href="#" class="linkMenu">Clothes</a>
+            <a href="#" class="linkMenu">Móveis</a>
+            <a href="#" class="linkMenu">Eletronics</a>
+            <a href="contato.html" class="linkMenu">Contact</a>
+            <a href="login.html" class="linkMenu">Login</a>
+        </nav>
+    </header>
+
+    <article>
+        <section>
+            <form action="#" method="post">
+                <p>ENVIE SUA MENSAGEM</p>
+
+                <label for="userName">Nome:</label>
+                <input type="text" name="userName" id="userName">
+
+                <label for="userEmail">E-mail:</label>
+                <input type="email" name="userEmail" id="userEmail">
+
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                <div>
+                    <input type="submit" value="ENVIAR" class="submit">
+                </div>
+            </form>
+        </section>
+    </article>
+</body>
+
+</html>
