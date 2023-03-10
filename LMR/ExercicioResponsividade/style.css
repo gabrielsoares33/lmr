@@ -1,0 +1,11 @@
+body {
+    background: rgba(122, 85, 6, 0.751);
+    background: rgb(104, 75, 7);
+}
+    .cabecalho img {
+     float:  left;
+     width: 150px;
+     height: 60px;
+
+    }
+.cabecalho a
